@@ -9,8 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class LoggingApplicationTests {
 
-    @Autowired
-    private OperationLogMapper operationLogMapper;
+//    @Autowired
+//    private OperationLogMapper operationLogMapper;
 
     @Test
     void contextLoads() {
@@ -18,7 +18,7 @@ class LoggingApplicationTests {
 
     @Test
     void testInsertOperation() {
-
+//        operationLogMapper.testInsert();
     }
 
 
