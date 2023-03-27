@@ -4147,3 +4147,1087 @@ This generated password is for development use only. Your security configuration
 2023-03-27 15:14:13.239 [http-nio-8081-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
 2023-03-27 15:14:42.654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-03-27 15:14:42.654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-27 17:10:29.745 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-27 17:10:29.748 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-27 17:10:29.749 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-27 17:10:29.770 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-27 17:10:29.870 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-27 17:10:29.871 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-27 17:10:30.019 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-27 17:10:30.020 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-27 17:10:30.283 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 28880 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-27 17:10:30.285 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:10:31.136 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:10:31.140 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:10:31.175 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:10:32.756 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3659e606-6a32-4024-b50d-71fc7030d135
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:10:34.400 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3caf5c96, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b3755f4, org.springframework.security.web.context.SecurityContextHolderFilter@39a8e2fa, org.springframework.security.web.header.HeaderWriterFilter@17003497, org.springframework.security.web.authentication.logout.LogoutFilter@3cf8a235, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c43df76, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a047bdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37d3aa8c, org.springframework.security.web.access.ExceptionTranslationFilter@3451fc88, org.springframework.security.web.access.intercept.AuthorizationFilter@136fece2]
+2023-03-27 17:10:36.157 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 6.093 seconds (process running for 7.361)
+2023-03-27 17:20:33.415 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-27 17:20:33.418 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-27 17:20:33.418 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-27 17:20:33.441 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-27 17:20:33.537 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-27 17:20:33.539 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-27 17:20:33.677 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-27 17:20:33.678 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-27 17:20:33.924 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 15640 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-27 17:20:33.926 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:20:34.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:20:34.695 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:20:34.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:20:36.307 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ea613a97-2b04-457d-b6bc-7d6b4227297f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:20:38.065 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59f7c106, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@136fece2, org.springframework.security.web.context.SecurityContextHolderFilter@17003497, org.springframework.security.web.header.HeaderWriterFilter@527d48db, org.springframework.security.web.authentication.logout.LogoutFilter@225e09f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@376498da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ff2266c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56478522, org.springframework.security.web.access.ExceptionTranslationFilter@ac417a2, org.springframework.security.web.access.intercept.AuthorizationFilter@279c4e3b]
+2023-03-27 17:20:39.745 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 6.028 seconds (process running for 7.203)
+2023-03-27 17:37:27.447 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 27680 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:37:27.448 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:37:27.983 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:37:27.985 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:37:28.007 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:37:28.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:37:28.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:37:28.521 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:37:28.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:37:28.622 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:37:28.623 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2023-03-27 17:37:28.960 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3723f08e-4963-44fe-8e0a-4dccbc83a53a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:37:29.598 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@525b8922, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@145a821d, org.springframework.security.web.context.SecurityContextHolderFilter@6313b441, org.springframework.security.web.header.HeaderWriterFilter@a95cb11, org.springframework.security.web.authentication.logout.LogoutFilter@41167ded, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60f662bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66d2885c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@2e204155, org.springframework.security.web.access.intercept.AuthorizationFilter@74764622]
+2023-03-27 17:37:30.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:37:30.023 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:37:30.030 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 2.834 seconds (process running for 3.617)
+2023-03-27 17:37:50.613 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 17:37:50.613 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 17:37:50.614 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 17:37:51.259 [http-nio-8081-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 171 ms
+2023-03-27 17:39:31.379 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 26904 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:39:31.381 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:39:31.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:39:31.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:39:31.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:39:32.391 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:39:32.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:39:32.399 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:39:32.399 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:39:32.495 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:39:32.496 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+2023-03-27 17:39:32.832 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 101345be-831e-46e4-a0a3-1bd76fb34672
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:39:33.430 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@41938e1e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d2e6f62, org.springframework.security.web.context.SecurityContextHolderFilter@13234ac9, org.springframework.security.web.header.HeaderWriterFilter@5423a17, org.springframework.security.web.authentication.logout.LogoutFilter@708769b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39374689, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@915d7c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77ff14ce, org.springframework.security.web.access.ExceptionTranslationFilter@315b5913, org.springframework.security.web.access.intercept.AuthorizationFilter@13e1e816]
+2023-03-27 17:39:33.828 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:39:33.849 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:39:33.856 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 2.728 seconds (process running for 3.409)
+2023-03-27 17:39:38.275 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 17:39:38.275 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 17:39:38.276 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 17:39:38.876 [http-nio-8081-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 158 ms
+2023-03-27 17:41:22.523 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 29212 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:41:22.526 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:41:23.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:41:23.293 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:41:23.316 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:41:23.859 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:41:23.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:41:23.867 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:41:23.867 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:41:23.967 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:41:23.968 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1404 ms
+2023-03-27 17:41:24.539 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fa432713-72b5-4a51-8d20-c7c1693323d1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:41:25.126 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4caf875c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d15789f, org.springframework.security.web.context.SecurityContextHolderFilter@1013871e, org.springframework.security.web.header.HeaderWriterFilter@5d22ed6c, org.springframework.security.web.authentication.logout.LogoutFilter@17a77a7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7614378d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7337bd2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abb7a8f, org.springframework.security.web.access.ExceptionTranslationFilter@4fe4503a, org.springframework.security.web.access.intercept.AuthorizationFilter@983050b]
+2023-03-27 17:41:25.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:41:25.571 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:41:25.575 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'
+2023-03-27 17:41:25.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:41:25.626 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 17:41:25.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:41:25.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:41:25.644 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 17:41:25.657 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.minton.system.SystemApplication.main(SystemApplication.java:13)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 13 common frames omitted
+2023-03-27 17:43:48.772 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 29420 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:43:48.775 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:43:49.505 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:43:49.508 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:43:49.535 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:43:50.069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:43:50.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:43:50.077 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:43:50.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:43:50.183 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:43:50.183 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1372 ms
+2023-03-27 17:43:50.784 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 50fbcd39-17d3-431f-b018-1b84918c21d7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:43:51.353 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b5aa48b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51c008fd, org.springframework.security.web.context.SecurityContextHolderFilter@19c1f6f4, org.springframework.security.web.header.HeaderWriterFilter@1c787389, org.springframework.security.web.authentication.logout.LogoutFilter@6528d339, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d02ff64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@441aa7ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70ed902a, org.springframework.security.web.access.ExceptionTranslationFilter@6338afe2, org.springframework.security.web.access.intercept.AuthorizationFilter@51297528]
+2023-03-27 17:43:51.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:43:51.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:43:51.898 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.383 seconds (process running for 4.067)
+2023-03-27 17:43:59.086 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 17:43:59.086 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 17:43:59.088 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 17:43:59.951 [http-nio-8081-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 360 ms
+2023-03-27 17:47:36.703 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 26260 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:47:36.705 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:47:37.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:47:37.395 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:47:37.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:47:37.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:47:37.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:47:37.901 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:47:37.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:47:37.997 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:47:37.997 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1259 ms
+2023-03-27 17:47:38.501 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 617fe00a-edf2-4ec9-99e5-bc73406d34f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:47:39.046 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b5ff70b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5709e10b, org.springframework.security.web.context.SecurityContextHolderFilter@3f6906f4, org.springframework.security.web.header.HeaderWriterFilter@718ad3a6, org.springframework.security.web.authentication.logout.LogoutFilter@4b5aa48b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@190bf8e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c0cf193, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@114badf0, org.springframework.security.web.access.ExceptionTranslationFilter@1534bdc6, org.springframework.security.web.access.intercept.AuthorizationFilter@7165bde6]
+2023-03-27 17:47:39.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:47:39.428 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:47:39.535 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.082 seconds (process running for 3.758)
+2023-03-27 17:47:42.315 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 17:47:42.315 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 17:47:42.316 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 17:47:43.104 [http-nio-8081-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 349 ms
+2023-03-27 17:56:08.150 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 18424 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 17:56:08.151 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 17:56:08.834 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 17:56:08.836 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 17:56:08.857 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 17:56:09.340 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 17:56:09.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:56:09.347 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 17:56:09.347 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 17:56:09.455 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 17:56:09.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+2023-03-27 17:56:09.956 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9c4511d2-7c62-4e42-918c-18050777f7e2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 17:56:10.503 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@780c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b3bb287, org.springframework.security.web.context.SecurityContextHolderFilter@217b0952, org.springframework.security.web.header.HeaderWriterFilter@1031c1a0, org.springframework.security.web.authentication.logout.LogoutFilter@32428874, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36330be8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f19d423, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ec5aad, org.springframework.security.web.access.ExceptionTranslationFilter@4aba7617, org.springframework.security.web.access.intercept.AuthorizationFilter@538905d2]
+2023-03-27 17:56:10.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 17:56:10.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 17:56:11.216 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.317 seconds (process running for 4.071)
+2023-03-27 17:56:14.032 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 17:56:14.032 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 17:56:14.033 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 17:56:14.864 [http-nio-8081-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 327 ms
+2023-03-27 18:05:18.297 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-27 18:05:18.301 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-27 18:05:18.301 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-27 18:05:18.325 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-27 18:05:18.402 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-27 18:05:18.404 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-27 18:05:18.535 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-27 18:05:18.536 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-27 18:05:18.804 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 30424 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-27 18:05:18.806 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:05:19.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:05:19.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:05:19.797 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:05:21.677 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 878e4791-8475-48e1-a014-4e3a1cc85591
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:05:23.219 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d75c604, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3265995e, org.springframework.security.web.context.SecurityContextHolderFilter@762cdf46, org.springframework.security.web.header.HeaderWriterFilter@5d7ff311, org.springframework.security.web.authentication.logout.LogoutFilter@27ec74a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cff03cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@534fc1f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33f2eb04, org.springframework.security.web.access.ExceptionTranslationFilter@1e50eb3f, org.springframework.security.web.access.intercept.AuthorizationFilter@55e5415d]
+2023-03-27 18:05:24.765 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 6.191 seconds (process running for 7.583)
+2023-03-27 18:20:36.130 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 14896 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:20:36.131 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:20:36.838 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:20:36.840 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:20:36.867 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:20:37.550 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:20:37.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:20:37.560 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:20:37.560 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:20:37.674 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:20:37.674 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1507 ms
+2023-03-27 18:20:38.315 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b26eb821-1b4f-420d-8416-13a191874c06
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:20:38.869 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2dacda9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699bb304, org.springframework.security.web.context.SecurityContextHolderFilter@3d405fe5, org.springframework.security.web.header.HeaderWriterFilter@362b384c, org.springframework.security.web.authentication.logout.LogoutFilter@48333b12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b475742, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19d9ba89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17477bbb, org.springframework.security.web.access.ExceptionTranslationFilter@3dec769, org.springframework.security.web.access.intercept.AuthorizationFilter@13ddaffb]
+2023-03-27 18:20:39.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:20:39.335 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 18:20:39.450 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.574 seconds (process running for 4.268)
+2023-03-27 18:20:44.010 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 18:20:44.010 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 18:20:44.011 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 18:20:44.890 [http-nio-8081-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 368 ms
+2023-03-27 18:27:55.034 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 31472 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:27:55.036 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:27:55.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:27:55.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:27:55.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:27:56.387 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:27:56.394 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:27:56.395 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:27:56.395 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:27:56.495 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:27:56.495 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2023-03-27 18:27:57.092 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 98abcfd3-7bb1-42fa-b8e4-e4c10bbd1677
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:27:57.678 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2dacda9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699bb304, org.springframework.security.web.context.SecurityContextHolderFilter@3d405fe5, org.springframework.security.web.header.HeaderWriterFilter@362b384c, org.springframework.security.web.authentication.logout.LogoutFilter@48333b12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b475742, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19d9ba89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17477bbb, org.springframework.security.web.access.ExceptionTranslationFilter@3dec769, org.springframework.security.web.access.intercept.AuthorizationFilter@13ddaffb]
+2023-03-27 18:27:58.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:27:58.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 18:27:58.474 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.697 seconds (process running for 4.417)
+2023-03-27 18:28:01.262 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 18:28:01.264 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 18:28:01.266 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 18:28:02.177 [http-nio-8081-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 358 ms
+2023-03-27 18:36:14.205 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-27 18:36:14.207 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-27 18:36:14.207 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-27 18:36:14.232 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-27 18:36:14.309 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-27 18:36:14.310 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-27 18:36:14.442 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-27 18:36:14.442 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-27 18:36:14.711 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 13124 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-27 18:36:14.714 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:36:15.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:36:15.694 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:36:15.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:36:18.061 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 13538b98-b56f-4fef-99c5-a19f2fcc5025
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:36:19.510 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20556566, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e4ef4c0, org.springframework.security.web.context.SecurityContextHolderFilter@bb21063, org.springframework.security.web.header.HeaderWriterFilter@25c8c71e, org.springframework.security.web.authentication.logout.LogoutFilter@15c4b1a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c2f7c63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d770bcd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ca8bd01, org.springframework.security.web.access.ExceptionTranslationFilter@40c0437f, org.springframework.security.web.access.intercept.AuthorizationFilter@6cd7dc74]
+2023-03-27 18:36:21.328 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 6.849 seconds (process running for 7.988)
+2023-03-27 18:41:37.924 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 28444 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:41:37.926 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:41:38.618 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:41:38.620 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:41:38.647 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:41:39.291 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:41:39.299 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:41:39.300 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:41:39.300 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:41:39.395 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:41:39.395 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+2023-03-27 18:41:39.998 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c2ced84e-3df1-43fe-87e7-8ed04ef7b9df
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:41:40.573 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2dacda9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699bb304, org.springframework.security.web.context.SecurityContextHolderFilter@3d405fe5, org.springframework.security.web.header.HeaderWriterFilter@362b384c, org.springframework.security.web.authentication.logout.LogoutFilter@48333b12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b475742, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19d9ba89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17477bbb, org.springframework.security.web.access.ExceptionTranslationFilter@3dec769, org.springframework.security.web.access.intercept.AuthorizationFilter@13ddaffb]
+2023-03-27 18:41:41.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:41:41.054 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 18:41:41.166 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.49 seconds (process running for 4.166)
+2023-03-27 18:41:47.056 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 18:41:47.056 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 18:41:47.057 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 18:41:47.924 [http-nio-8081-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 353 ms
+2023-03-27 18:47:06.227 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 29952 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:47:06.229 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:47:06.358 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+2023-03-27 18:47:06.377 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.minton.system.SystemApplication.main(SystemApplication.java:16)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'swagger2Configuration' for bean class [com.minton.common.config.Swagger2Configuration] conflicts with existing, non-compatible bean definition of same name and class [com.minton.common.config.Swagger2Configuration]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 13 common frames omitted
+2023-03-27 18:47:43.108 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 10048 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:47:43.111 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:47:43.238 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+2023-03-27 18:47:43.255 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.minton.system.SystemApplication.main(SystemApplication.java:16)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'swagger2Configuration' for bean class [com.minton.common.config.Swagger2Configuration] conflicts with existing, non-compatible bean definition of same name and class [com.minton.common.config.Swagger2Configuration]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 13 common frames omitted
+2023-03-27 18:48:45.574 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 27544 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:48:45.576 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:48:45.704 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+2023-03-27 18:48:45.723 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.minton.system.SystemApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.minton.system.SystemApplication.main(SystemApplication.java:16)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'swagger2Configuration' for bean class [com.minton.common.config.Swagger2Configuration] conflicts with existing, non-compatible bean definition of same name and class [com.minton.common.config.Swagger2Configuration]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 13 common frames omitted
+2023-03-27 18:50:15.312 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 10796 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:50:15.314 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:50:16.018 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:50:16.026 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:50:16.047 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:50:16.664 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:50:16.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:50:16.673 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:50:16.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:50:16.767 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:50:16.767 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1417 ms
+2023-03-27 18:50:17.401 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 76f73a79-1fce-4e73-98bd-7ace709ad2a6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:50:18.007 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@105dc246, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b556a88, org.springframework.security.web.context.SecurityContextHolderFilter@5dc9d25a, org.springframework.security.web.header.HeaderWriterFilter@4fef4f96, org.springframework.security.web.authentication.logout.LogoutFilter@5e2718b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c4be45f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e63bd6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f8cd5fc, org.springframework.security.web.access.ExceptionTranslationFilter@8d7718e, org.springframework.security.web.access.intercept.AuthorizationFilter@6b71e98f]
+2023-03-27 18:50:18.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:50:18.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 18:50:18.604 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.548 seconds (process running for 4.238)
+2023-03-27 18:50:22.323 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 18:50:22.323 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 18:50:22.324 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 18:50:23.197 [http-nio-8081-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 318 ms
+2023-03-27 18:51:21.381 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 29076 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:51:21.384 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:51:22.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:51:22.081 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:51:22.102 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:51:22.768 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:51:22.776 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:51:22.777 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:51:22.777 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:51:22.880 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:51:22.881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1463 ms
+2023-03-27 18:51:23.467 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 99e7ef63-3635-4ad6-a1b1-05e09cf88221
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:51:23.599 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:51:23.602 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:51:23.615 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:51:23.628 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:52:28.194 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 204 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:52:28.196 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:52:28.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:52:28.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:52:28.895 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:52:29.505 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:52:29.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:52:29.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:52:29.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:52:29.608 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:52:29.608 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+2023-03-27 18:52:30.190 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b222e1a2-8cb9-44e9-a44a-85815adab98e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:52:30.321 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:52:30.324 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:52:30.338 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:52:30.350 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:52:55.825 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 30100 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:52:55.827 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:52:56.572 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:52:56.580 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:52:56.604 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:52:57.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:52:57.256 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:52:57.258 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:52:57.258 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:52:57.352 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:52:57.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1491 ms
+2023-03-27 18:52:57.956 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6a4bb86f-2e07-4053-81f6-d63aee7092e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:52:58.515 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e2718b3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@440461ef, org.springframework.security.web.context.SecurityContextHolderFilter@3436d3d7, org.springframework.security.web.header.HeaderWriterFilter@484876a1, org.springframework.security.web.authentication.logout.LogoutFilter@5a31abe9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e47a71e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bbb48dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5977bdea, org.springframework.security.web.access.ExceptionTranslationFilter@dbca149, org.springframework.security.web.access.intercept.AuthorizationFilter@43fbc2bf]
+2023-03-27 18:52:58.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:52:58.976 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 18:52:59.084 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.514 seconds (process running for 4.222)
+2023-03-27 18:53:05.070 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 18:53:05.070 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 18:53:05.071 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 18:53:06.034 [http-nio-8081-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 349 ms
+2023-03-27 18:53:45.842 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 12140 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:53:45.844 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:53:46.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:53:46.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:53:46.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:53:47.169 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:53:47.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:53:47.178 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:53:47.179 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:53:47.275 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:53:47.275 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+2023-03-27 18:53:47.865 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 351e161b-9fbd-41b1-8bf9-cdc4086c0678
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:53:47.995 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:53:47.998 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:53:48.012 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:53:48.024 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:55:46.113 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 30424 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:55:46.116 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:55:46.837 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:55:46.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:55:46.865 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:55:47.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:55:47.628 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1470 ms
+2023-03-27 18:55:48.282 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6f684a0a-93e3-433d-923e-b7da232beabc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:55:48.409 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:56:34.362 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 29628 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:56:34.365 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:56:35.097 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:56:35.099 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:56:35.126 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:56:35.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:56:35.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:56:35.755 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:56:35.755 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:56:35.852 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:56:35.852 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1452 ms
+2023-03-27 18:56:36.443 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 69829611-02d4-4849-ae97-f7fb4d382a95
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:56:36.588 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:56:36.591 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:56:36.606 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:56:36.619 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:57:44.619 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 12472 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:57:44.622 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:57:45.302 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:57:45.304 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:57:45.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:57:45.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:57:45.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:57:45.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:57:45.962 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:57:46.058 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:57:46.059 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1402 ms
+2023-03-27 18:57:46.699 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e5cbcc5e-a4de-4587-a14a-4e1495894ed1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:57:46.835 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:57:46.838 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:57:46.852 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:57:46.864 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:58:14.670 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 24088 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:58:14.672 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:58:15.362 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:58:15.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:58:15.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:58:16.004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:58:16.012 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:58:16.013 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:58:16.013 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:58:16.116 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:58:16.117 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+2023-03-27 18:58:16.697 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0eb4063c-17e8-41d5-a10a-da471bd6bd4e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:58:16.829 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:58:16.833 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:58:16.847 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:58:16.858 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:58:28.104 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 14164 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:58:28.107 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:58:28.795 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:58:28.797 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:58:28.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:58:29.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:58:29.446 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:58:29.447 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:58:29.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:58:29.546 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:58:29.546 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1405 ms
+2023-03-27 18:58:30.181 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 114ad434-4f4a-459b-a235-7e6f3fabb294
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:58:30.319 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:58:30.322 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:58:30.336 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:58:30.349 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:59:06.267 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 28792 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:59:06.268 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:59:06.976 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:59:06.978 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:59:07.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:59:07.638 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:59:07.646 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:59:07.647 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:59:07.647 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:59:07.746 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:59:07.746 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1441 ms
+2023-03-27 18:59:08.340 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7d6e3441-a4aa-4cc9-867c-1ae6e0499b39
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:59:08.470 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:59:08.473 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:59:08.488 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:59:08.500 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 18:59:51.056 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 27272 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 18:59:51.058 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:59:51.739 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 18:59:51.743 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 18:59:51.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 18:59:52.389 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 18:59:52.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 18:59:52.397 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 18:59:52.397 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 18:59:52.496 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 18:59:52.496 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1405 ms
+2023-03-27 18:59:53.093 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 212b6ffc-8c1b-40cf-a52f-dac2898fd680
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 18:59:53.233 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 18:59:53.236 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 18:59:53.251 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 18:59:53.264 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 19:35:12.352 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 7500 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 19:35:12.354 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 19:35:12.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 19:35:12.972 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 19:35:12.999 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-27 19:35:13.734 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 19:35:13.744 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 19:35:13.745 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 19:35:13.745 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 19:35:13.850 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 19:35:13.850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1458 ms
+2023-03-27 19:35:14.288 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a68e1cd5-568c-4204-9106-fe5764a2b645
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 19:35:14.496 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/minton/system/security/springSecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception with message: 'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+2023-03-27 19:35:14.498 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-27 19:35:14.513 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-27 19:35:14.526 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:188)
+
+The following method did not exist:
+
+    'io.github.classgraph.ClassGraph io.github.classgraph.ClassGraph.acceptPaths(java.lang.String[])'
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/C:/Users/13693/.m2/repository/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/C:/Users/13693/.m2/repository/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2023-03-27 19:37:03.396 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 31688 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-27 19:37:03.399 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 19:37:03.936 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-27 19:37:03.938 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-27 19:37:03.959 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-27 19:37:04.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-27 19:37:04.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-27 19:37:04.575 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-27 19:37:04.575 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27 19:37:04.669 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-27 19:37:04.669 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1236 ms
+2023-03-27 19:37:05.049 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 401dc332-c74e-41e5-80d2-f51492197ee6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27 19:37:05.680 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c4ca87c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dbbdf92, org.springframework.security.web.context.SecurityContextHolderFilter@2ee456c7, org.springframework.security.web.header.HeaderWriterFilter@42503099, org.springframework.security.web.authentication.logout.LogoutFilter@dbc7e0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39514976, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32d22650, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dbeedff, org.springframework.security.web.access.ExceptionTranslationFilter@19ec5357, org.springframework.security.web.access.intercept.AuthorizationFilter@7aa15a80]
+2023-03-27 19:37:06.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-27 19:37:06.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-27 19:37:06.263 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.113 seconds (process running for 3.773)
+2023-03-27 19:37:19.647 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 19:37:19.647 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-27 19:37:19.648 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-27 19:37:20.497 [http-nio-8081-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 260 ms
