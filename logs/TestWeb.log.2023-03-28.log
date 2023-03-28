@@ -1,0 +1,625 @@
+2023-03-28 00:08:21.095 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 10688 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-28 00:08:21.098 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 00:08:21.779 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 00:08:21.783 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 00:08:21.810 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-28 00:08:22.609 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-28 00:08:22.618 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-28 00:08:22.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 00:08:22.619 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28 00:08:22.720 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-28 00:08:22.721 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
+2023-03-28 00:08:23.188 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7b5a14ec-2507-4ce4-b2de-ed7b1b1661ae
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 00:08:23.806 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35454c7a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50f3ba6a, org.springframework.security.web.context.SecurityContextHolderFilter@31b6fb14, org.springframework.security.web.header.HeaderWriterFilter@b808af5, org.springframework.security.web.authentication.logout.LogoutFilter@727dcc64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@246df37b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@290c266c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@319aa9ee, org.springframework.security.web.access.ExceptionTranslationFilter@5b490d5e, org.springframework.security.web.access.intercept.AuthorizationFilter@67c0c90b]
+2023-03-28 00:08:24.377 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-28 00:08:24.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-28 00:08:24.407 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.609 seconds (process running for 4.924)
+2023-03-28 00:08:37.392 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 00:08:37.392 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 00:08:37.393 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 00:08:38.150 [http-nio-8081-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 228 ms
+2023-03-28 00:10:40.314 [http-nio-8081-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-28 00:10:40.489 [http-nio-8081-exec-8] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@871c75e
+2023-03-28 00:10:40.492 [http-nio-8081-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-28 00:13:19.059 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-28 00:13:19.066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-28 14:07:09.132 [main] INFO  com.minton.system.SystemApplication - Starting SystemApplication using Java 17.0.6 with PID 21424 (D:\IDEA_Projects\manage-system\system\target\classes started by 13693 in D:\IDEA_Projects\manage-system)
+2023-03-28 14:07:09.134 [main] INFO  com.minton.system.SystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:07:09.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:07:09.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:07:09.788 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:07:10.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-03-28 14:07:10.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-03-28 14:07:10.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-28 14:07:10.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28 14:07:10.653 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring embedded WebApplicationContext
+2023-03-28 14:07:10.654 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1481 ms
+2023-03-28 14:07:11.153 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cf343a12-4d8b-4724-833d-dd6d6dc06e64
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:07:11.791 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ce47652, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65d90b7f, org.springframework.security.web.context.SecurityContextHolderFilter@2fa879ed, org.springframework.security.web.header.HeaderWriterFilter@70ee9d31, org.springframework.security.web.authentication.logout.LogoutFilter@4e8afdad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ec082a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cf2f5d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a42019a, org.springframework.security.web.access.ExceptionTranslationFilter@2b4829aa, org.springframework.security.web.access.intercept.AuthorizationFilter@4ec0229c]
+2023-03-28 14:07:12.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-03-28 14:07:12.369 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/ms'
+2023-03-28 14:07:12.376 [main] INFO  com.minton.system.SystemApplication - Started SystemApplication in 3.523 seconds (process running for 4.414)
+2023-03-28 14:07:17.689 [http-nio-8081-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/ms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 14:07:17.689 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-28 14:07:17.690 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-28 14:07:18.298 [http-nio-8081-exec-9] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 186 ms
+2023-03-28 14:07:31.110 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:07:31.112 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:07:31.113 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:07:31.134 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:07:31.230 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:07:31.232 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:07:31.377 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:07:31.379 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:07:31.662 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 32424 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:07:31.664 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:07:32.392 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:07:32.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:07:32.438 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:07:33.942 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b7a261e9-263c-4f88-a216-1f1486083481
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:07:35.567 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@627acb38, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32b95de, org.springframework.security.web.context.SecurityContextHolderFilter@fd87c22, org.springframework.security.web.header.HeaderWriterFilter@7bce9ce4, org.springframework.security.web.authentication.logout.LogoutFilter@7ffcb232, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ff463bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c71cf3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629cbb1, org.springframework.security.web.access.ExceptionTranslationFilter@136fece2, org.springframework.security.web.access.intercept.AuthorizationFilter@4b09d1c3]
+2023-03-28 14:07:37.014 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.596 seconds (process running for 6.791)
+2023-03-28 14:12:54.436 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:12:54.439 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:12:54.439 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:12:54.461 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:12:54.545 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:12:54.546 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:12:54.688 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:12:54.690 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:12:54.949 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 2980 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:12:54.952 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:12:55.702 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:12:55.705 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:12:55.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:12:57.336 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cd4c1690-91ea-4915-b888-f06e19d8f7b4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:12:58.992 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25d0b918, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9bf63d2, org.springframework.security.web.context.SecurityContextHolderFilter@136fece2, org.springframework.security.web.header.HeaderWriterFilter@279c4e3b, org.springframework.security.web.authentication.logout.LogoutFilter@77cd235b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3caf5c96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bdafb01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ffcb232, org.springframework.security.web.access.ExceptionTranslationFilter@60ae7cf2, org.springframework.security.web.access.intercept.AuthorizationFilter@359865a2]
+2023-03-28 14:13:00.690 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.958 seconds (process running for 7.127)
+2023-03-28 14:13:58.929 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:13:58.931 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:13:58.931 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:13:58.953 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:13:59.034 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:13:59.035 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:13:59.184 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:13:59.185 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:13:59.444 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 10060 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:13:59.447 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:14:00.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:14:00.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:14:00.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:14:01.776 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fdd2594b-7996-4bfa-9d31-78579b19d69e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:14:03.429 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@359865a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d9bb69b, org.springframework.security.web.context.SecurityContextHolderFilter@334b392d, org.springframework.security.web.header.HeaderWriterFilter@6591f8ea, org.springframework.security.web.authentication.logout.LogoutFilter@797f97e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@136fece2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37d3aa8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25d0b918, org.springframework.security.web.access.ExceptionTranslationFilter@631944d4, org.springframework.security.web.access.intercept.AuthorizationFilter@204b0f07]
+2023-03-28 14:14:04.906 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.678 seconds (process running for 6.817)
+2023-03-28 14:15:58.354 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:15:58.356 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:15:58.357 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:15:58.375 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:15:58.464 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:15:58.465 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:15:58.639 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:15:58.641 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:15:58.894 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 28968 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:15:58.896 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:15:59.645 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:15:59.649 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:15:59.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:16:01.247 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fb2eb556-373e-4e29-be30-f9c054143755
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:16:02.823 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ffcb232, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f53fc38, org.springframework.security.web.context.SecurityContextHolderFilter@3caf5c96, org.springframework.security.web.header.HeaderWriterFilter@59f7c106, org.springframework.security.web.authentication.logout.LogoutFilter@3568ea59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37d3aa8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@500ec769, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5feb82b3, org.springframework.security.web.access.ExceptionTranslationFilter@bc8d68b, org.springframework.security.web.access.intercept.AuthorizationFilter@25d0b918]
+2023-03-28 14:16:04.503 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.822 seconds (process running for 7.027)
+2023-03-28 14:16:29.395 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:16:29.397 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:16:29.398 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:16:29.419 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:16:29.515 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:16:29.517 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:16:29.660 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:16:29.661 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:16:29.905 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 14208 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:16:29.907 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:16:30.645 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:16:30.649 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:16:30.689 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:16:32.262 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d74a231b-0c52-4566-9f66-1ff69dcb2c5f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:16:33.940 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37cf91d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@571d0925, org.springframework.security.web.context.SecurityContextHolderFilter@1bdafb01, org.springframework.security.web.header.HeaderWriterFilter@5b3755f4, org.springframework.security.web.authentication.logout.LogoutFilter@389a1e34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@500ec769, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b33fff9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54e0f76f, org.springframework.security.web.access.ExceptionTranslationFilter@238ad211, org.springframework.security.web.access.intercept.AuthorizationFilter@5feb82b3]
+2023-03-28 14:16:35.499 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.801 seconds (process running for 6.938)
+2023-03-28 14:19:01.166 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:19:01.169 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:19:01.169 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:19:01.190 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:19:01.267 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:19:01.269 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:19:01.411 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:19:01.412 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:19:01.673 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 24820 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:19:01.675 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:19:02.401 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:19:02.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:19:02.453 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:19:03.993 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 59372c2a-7c98-40bf-ae57-82b3a9e6b8a8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:19:05.611 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ffcb232, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f53fc38, org.springframework.security.web.context.SecurityContextHolderFilter@3caf5c96, org.springframework.security.web.header.HeaderWriterFilter@59f7c106, org.springframework.security.web.authentication.logout.LogoutFilter@3568ea59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37d3aa8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@500ec769, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5feb82b3, org.springframework.security.web.access.ExceptionTranslationFilter@bc8d68b, org.springframework.security.web.access.intercept.AuthorizationFilter@25d0b918]
+2023-03-28 14:19:07.222 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.776 seconds (process running for 6.869)
+2023-03-28 14:33:54.184 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 14:33:54.187 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 14:33:54.187 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 14:33:54.210 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 14:33:54.297 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 14:33:54.298 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 14:33:54.441 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 14:33:54.442 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 14:33:54.687 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 16376 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 14:33:54.688 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 14:33:55.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 14:33:55.461 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 14:33:55.493 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-28 14:33:57.042 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: eb296ae7-ce06-46d1-88a0-cc981c850b03
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 14:33:58.884 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77cd235b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@302da330, org.springframework.security.web.context.SecurityContextHolderFilter@bc8d68b, org.springframework.security.web.header.HeaderWriterFilter@3d132bb6, org.springframework.security.web.authentication.logout.LogoutFilter@53e28097, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cf8a235, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6591f8ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3568ea59, org.springframework.security.web.access.ExceptionTranslationFilter@7c956dda, org.springframework.security.web.access.intercept.AuthorizationFilter@797f97e3]
+2023-03-28 14:34:00.480 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 6.0 seconds (process running for 7.132)
+2023-03-28 14:34:00.531 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.minton.system.SystemApplicationTests@2314cd97]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.minton.system.SystemApplicationTests': Unsatisfied dependency expressed through field 'redisTemplate': No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.Object, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.Object, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1371)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	... 76 common frames omitted
+2023-03-28 15:05:13.797 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:05:13.799 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:05:13.799 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:05:13.820 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:05:13.904 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:05:13.906 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:05:14.041 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:05:14.042 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:05:14.330 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 4460 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:05:14.332 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:05:15.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:05:15.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:05:15.108 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:05:16.659 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b4a93806-a8c7-4fd8-aeac-be16304d3ec8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:05:18.142 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5feb82b3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d38db6f, org.springframework.security.web.context.SecurityContextHolderFilter@37d3aa8c, org.springframework.security.web.header.HeaderWriterFilter@56478522, org.springframework.security.web.authentication.logout.LogoutFilter@173b1af1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bdafb01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bce9ce4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37cf91d8, org.springframework.security.web.access.ExceptionTranslationFilter@3cf8a235, org.springframework.security.web.access.intercept.AuthorizationFilter@7ffcb232]
+2023-03-28 15:05:19.754 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.665 seconds (process running for 6.797)
+2023-03-28 15:06:04.293 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:06:04.295 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:06:04.295 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:06:04.312 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:06:04.403 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:06:04.405 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:06:04.560 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:06:04.561 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:06:04.819 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 9200 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:06:04.821 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:06:05.544 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:06:05.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:06:05.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:06:07.099 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b286302d-3b65-4cc9-ab37-5d869536a867
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:06:08.594 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@173b1af1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a520f05, org.springframework.security.web.context.SecurityContextHolderFilter@238ad211, org.springframework.security.web.header.HeaderWriterFilter@2fa212df, org.springframework.security.web.authentication.logout.LogoutFilter@2e1ba142, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6591f8ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59f7c106, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@389a1e34, org.springframework.security.web.access.ExceptionTranslationFilter@78d6c244, org.springframework.security.web.access.intercept.AuthorizationFilter@3568ea59]
+2023-03-28 15:06:10.099 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.502 seconds (process running for 6.637)
+2023-03-28 15:06:51.888 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:06:51.890 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:06:51.890 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:06:51.912 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:06:52.016 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:06:52.018 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:06:52.150 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:06:52.151 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:06:52.395 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 4992 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:06:52.396 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:06:53.145 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:06:53.148 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:06:53.187 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:06:54.615 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 934e090e-201a-46c1-815f-c10cbe5d1207
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:06:56.069 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7462ba4b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b09d1c3, org.springframework.security.web.context.SecurityContextHolderFilter@7bce9ce4, org.springframework.security.web.header.HeaderWriterFilter@7aa3857b, org.springframework.security.web.authentication.logout.LogoutFilter@5d9bb69b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b33fff9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b9c9b8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18811c42, org.springframework.security.web.access.ExceptionTranslationFilter@279c4e3b, org.springframework.security.web.access.intercept.AuthorizationFilter@54e0f76f]
+2023-03-28 15:06:57.590 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.402 seconds (process running for 6.546)
+2023-03-28 15:13:09.932 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:13:09.934 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:13:09.935 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:13:09.957 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:13:10.044 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:13:10.046 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:13:10.173 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:13:10.174 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:13:10.427 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 32552 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:13:10.429 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:13:11.199 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:13:11.201 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:13:11.235 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:13:12.740 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 76b1a801-b2cf-4b64-a8a3-999aee574990
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:13:14.340 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ffcb232, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f53fc38, org.springframework.security.web.context.SecurityContextHolderFilter@3caf5c96, org.springframework.security.web.header.HeaderWriterFilter@59f7c106, org.springframework.security.web.authentication.logout.LogoutFilter@3568ea59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37d3aa8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@500ec769, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5feb82b3, org.springframework.security.web.access.ExceptionTranslationFilter@bc8d68b, org.springframework.security.web.access.intercept.AuthorizationFilter@25d0b918]
+2023-03-28 15:13:15.863 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.654 seconds (process running for 6.798)
+2023-03-28 15:13:15.919 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.minton.system.SystemApplicationTests@5b0835cb]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.minton.system.SystemApplicationTests': Unsatisfied dependency expressed through field 'redisTemplate': No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1371)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	... 76 common frames omitted
+2023-03-28 15:14:54.659 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:14:54.662 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:14:54.662 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:14:54.684 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:14:54.773 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:14:54.775 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:14:54.904 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:14:54.905 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:14:55.147 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 8560 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:14:55.148 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:14:55.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:14:55.894 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:14:55.931 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:14:57.449 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 36793ac0-c18c-4184-bdb2-aeb0b344ee82
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:14:59.094 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7878bbdb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25f7cc38, org.springframework.security.web.context.SecurityContextHolderFilter@5a1a20ae, org.springframework.security.web.header.HeaderWriterFilter@3fd33f48, org.springframework.security.web.authentication.logout.LogoutFilter@3b9c9b8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@186481d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@448086ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@563263a, org.springframework.security.web.access.ExceptionTranslationFilter@284c4f02, org.springframework.security.web.access.intercept.AuthorizationFilter@1be77a76]
+2023-03-28 15:15:00.719 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.777 seconds (process running for 6.897)
+2023-03-28 15:38:23.584 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:38:23.587 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:38:23.587 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:38:23.609 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:38:23.706 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:38:23.707 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:38:23.854 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:38:23.855 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:38:24.102 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 25372 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:38:24.103 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:38:24.892 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:38:24.896 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:38:24.927 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:38:26.440 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6c49c915-8bc0-4ea0-b742-256ab5efd309
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:38:28.127 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7462ba4b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b09d1c3, org.springframework.security.web.context.SecurityContextHolderFilter@7bce9ce4, org.springframework.security.web.header.HeaderWriterFilter@7aa3857b, org.springframework.security.web.authentication.logout.LogoutFilter@5d9bb69b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b33fff9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b9c9b8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18811c42, org.springframework.security.web.access.ExceptionTranslationFilter@279c4e3b, org.springframework.security.web.access.intercept.AuthorizationFilter@54e0f76f]
+2023-03-28 15:38:29.726 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.834 seconds (process running for 7.0)
+2023-03-28 15:38:29.782 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.minton.system.SystemApplicationTests@62615be]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.minton.system.SystemApplicationTests': Unsatisfied dependency expressed through field 'redisTemplate': No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.Object, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.Object, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1371)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	... 76 common frames omitted
+2023-03-28 15:41:21.689 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:41:21.692 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:41:21.692 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:41:21.711 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:41:21.808 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:41:21.810 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:41:21.960 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:41:21.961 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:41:22.231 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 32980 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:41:22.232 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:41:22.982 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:41:22.985 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:41:23.015 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:41:24.534 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b046b461-6c97-44a5-8923-eb863ab9172f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:41:26.289 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@359865a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d9bb69b, org.springframework.security.web.context.SecurityContextHolderFilter@334b392d, org.springframework.security.web.header.HeaderWriterFilter@6591f8ea, org.springframework.security.web.authentication.logout.LogoutFilter@797f97e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@136fece2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37d3aa8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25d0b918, org.springframework.security.web.access.ExceptionTranslationFilter@631944d4, org.springframework.security.web.access.intercept.AuthorizationFilter@204b0f07]
+2023-03-28 15:41:27.887 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.891 seconds (process running for 7.052)
+2023-03-28 15:41:51.839 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SystemApplicationTests]: using SpringBootContextLoader
+2023-03-28 15:41:51.842 [main] DEBUG o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.minton.system.SystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 15:41:51.842 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.minton.system.SystemApplicationTests]: SystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 15:41:51.862 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SystemApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+2023-03-28 15:41:51.959 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IDEA_Projects\manage-system\system\target\classes\com\minton\system\SystemApplication.class]
+2023-03-28 15:41:51.960 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.minton.system.SystemApplication for test class com.minton.system.SystemApplicationTests
+2023-03-28 15:41:52.095 [main] DEBUG o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SystemApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2023-03-28 15:41:52.096 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: class [SystemApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2023-03-28 15:41:52.357 [main] INFO  com.minton.system.SystemApplicationTests - Starting SystemApplicationTests using Java 17.0.6 with PID 33484 (started by 13693 in D:\IDEA_Projects\manage-system\system)
+2023-03-28 15:41:52.359 [main] INFO  com.minton.system.SystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:41:53.097 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-28 15:41:53.100 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-28 15:41:53.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-03-28 15:41:54.572 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4f93fb65-d8d3-423e-a1ec-a62ca5808625
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-28 15:41:56.176 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7878bbdb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25f7cc38, org.springframework.security.web.context.SecurityContextHolderFilter@5a1a20ae, org.springframework.security.web.header.HeaderWriterFilter@3fd33f48, org.springframework.security.web.authentication.logout.LogoutFilter@3b9c9b8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@186481d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@448086ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@563263a, org.springframework.security.web.access.ExceptionTranslationFilter@284c4f02, org.springframework.security.web.access.intercept.AuthorizationFilter@1be77a76]
+2023-03-28 15:41:57.713 [main] INFO  com.minton.system.SystemApplicationTests - Started SystemApplicationTests in 5.577 seconds (process running for 6.712)
