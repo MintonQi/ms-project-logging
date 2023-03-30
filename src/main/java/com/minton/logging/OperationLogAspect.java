@@ -51,6 +51,7 @@ public class OperationLogAspect {
 
         HttpServletRequest request = (HttpServletRequest) attributes.getRequest();
 
+
         //反射取到当前切入的方法，然后取到方法上的注释，及其中的值。
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
@@ -61,6 +62,7 @@ public class OperationLogAspect {
 
         oplog.setOperation_Time(new Date());
         oplog.setOperation_Desc(desc);
+        oplog.setOperation_Request_Parameters(JSON.toJSONString(request.getMethod())); //不能这么转
         oplog.setOperation_Response_Parameters(JSON.toJSONString(ret));
 
         //插入日志到数据库
